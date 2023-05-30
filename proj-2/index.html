@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>bookmark <a href="#controls">click to go to controls</a>
+    </p>
+    <!-- image attacement -->
+    <img src="" alt="" width="" height="" loading="lazy">
+    
+    <!-- audio attacement -->
+    <audio src="" controls></audio>
+    Or
+    <audio control>
+        <source src="">
+    </audio>
+
+    <!-- video attachment -->
+    <video src="" height="" controls></video>
+
+    Or \
+    <video controls height="">
+        <source src="" type="video/mp4">
+    </video>
+
+    <!-- how to add external website in your site or add other site's video on your site -->
+
+    <iframe src="/*path of the website you want to attach*/" title="" frameborder="0" width="" height=""></iframe>
+
+    <!-- to add maps on your site follow the steps\
+    1. Go to Google maps. In the Search Google Maps text box, type in the address of the location you want to display on your web page.
+    2. When the map appears, click on the Share icon.
+    3. Select the Embed tab on the Share window.
+    4. Click on Copy HTML. 
+
+    OR
+
+    1. Go to the Google Maps website.
+    2. Search for the location you want to feature in your embedded map.
+    3. Click Share. ...
+    4. Click Embed a map to see a preview of the embed. ...
+    5. When ready to embed, click Copy HTML.
+    6. In your HTML file, paste the embed code where you want the map to appear on the page.-->
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.094295414814!2d72.5363732!3d23.0570043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85a9b1327123%3A0xa2e55092f09f6465!2sReGain%20Physio%20Clinic!5e0!3m2!1sen!2sin!4v1685469725054!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <iframe src="https://www.youtube.com/embed?MUnk6NuVPQQ" frameborder="0"></iframe>
+    <iframe src="https://www.youtube.com/embed/fb4rgYbi84c&list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&index=11&t=63s" frameborder="0"></iframe>
+
+        autoplay + muted
+        <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+    </iframe>
+
+    YouTube Loop
+    Add loop=1 to let your video loop forever.
+
+    Value 0 (default): The video will play only once.
+
+    Value 1: The video will loop (forever).
+        <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
+    </iframe>
+
+    <pre>YouTube Controls
+        Add controls=0 to not display controls in the video player.
+    
+        Value 0: Player controls does not display.
+    
+        Value 1 (default): Player controls display.</pre>
+
+    <iframe id="controls"width="420" height="315"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+    </iframe>
+    <header></header>
+    <nav></nav>
+    <footer></footer>
+    <main></main>
+    <aside></aside>
+</body>
+</html>
